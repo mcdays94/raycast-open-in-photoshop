@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "open-in-photoshop",
-  "title": "Open in Photoshop",
+  "name": "clipboard-image-to-photoshop",
+  "title": "Clipboard Image to Photoshop",
   "description": "Opens the current image on the clipboard in Adobe Photoshop",
   "icon": "icon.png",
   "author": "miguelcaetanodias",
