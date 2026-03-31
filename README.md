@@ -1,11 +1,11 @@
-# Clipboard Image to Photoshop
+# Clipboard to Photoshop
 
-A [Raycast](https://raycast.com) extension that opens the current image on your clipboard directly in Adobe Photoshop.
+A [Raycast](https://raycast.com) extension that opens the current clipboard image directly in Adobe Photoshop.
 
 ## Usage
 
 1. Copy any image to your clipboard (screenshot, image from browser, file, etc.)
-2. Open Raycast and search for **"Open Clipboard Image in Photoshop"**
+2. Open Raycast and search for **"Open Clipboard in Photoshop"**
 3. The image will open instantly in Photoshop
 
 ## How It Works

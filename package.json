@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "clipboard-image-to-photoshop",
-  "title": "Clipboard Image to Photoshop",
-  "description": "Opens the current image on the clipboard in Adobe Photoshop",
+  "name": "clipboard-to-photoshop",
+  "title": "Clipboard to Photoshop",
+  "description": "Opens the current clipboard image in Adobe Photoshop",
   "icon": "icon.png",
   "author": "miguel_caetano_dias",
   "categories": [
@@ -16,8 +16,8 @@
   "commands": [
     {
       "name": "open-in-photoshop",
-      "title": "Open Clipboard Image in Photoshop",
-      "description": "Opens the current image on the clipboard in Adobe Photoshop",
+      "title": "Open Clipboard in Photoshop",
+      "description": "Opens the current clipboard image in Adobe Photoshop",
       "mode": "no-view"
     }
   ],
