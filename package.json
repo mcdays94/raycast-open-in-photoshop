@@ -5,15 +5,30 @@
   "description": "Opens the current image on the clipboard in Adobe Photoshop",
   "icon": "icon.png",
   "author": "miguelcaetanodias",
-  "categories": ["Design Tools", "Productivity"],
+  "categories": [
+    "Design Tools",
+    "Productivity"
+  ],
   "license": "MIT",
-  "platforms": ["macOS"],
+  "platforms": [
+    "macOS"
+  ],
   "commands": [
     {
       "name": "open-in-photoshop",
       "title": "Open Clipboard Image in Photoshop",
       "description": "Opens the current image on the clipboard in Adobe Photoshop",
       "mode": "no-view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "photoshopApp",
+      "title": "Photoshop Application",
+      "description": "Override the target app. Leave empty to auto-detect the latest installed version. Accepts an app name (e.g. \"Adobe Photoshop 2025\") or a full path (e.g. \"/Applications/Adobe Photoshop 2025/Adobe Photoshop 2025.app\").",
+      "type": "textfield",
+      "required": false,
+      "placeholder": "Auto-detect (latest version)"
     }
   ],
   "dependencies": {
